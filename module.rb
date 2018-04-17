@@ -24,28 +24,28 @@ module Mathematicaloperation
 		@a=gets.chomp
 		if @a=="1"
 			puts"Enter the value b"
-			@b=gets.chomp
+			b=gets.to_i
 			puts"enter the value of c"
-			@c=gets.chomp
-			@d=@c+@b
+			c=gets.to_i
+			puts d=b+c
 		elsif @a=="2"
 			puts"Enter the value b"
-			@b=gets.chomp
+			b=gets.to_i
 			puts"enter the value of c"
-			@c=gets.chomp
-			@d=@c-@b
+			c=gets.to_i
+			puts d=b-c
 		elsif @a=="3"
 			puts"Enter the value b"
-			@b=gets.chomp
+			b=gets.to_i
 			puts"enter the value of c"
-			@c=gets.chomp
-			@d=@c*@b
+			c=gets.to_i
+			puts d=c*b
 		elsif @a=="4"
 			puts"Enter the value b"
-			@b=gets.chomp
+			b=gets.to_i
 			puts"enter the value of c"
-			@c=gets.chomp
-			@d=@c/@b
+			c=gets.to_i
+			puts d=c/b
 		end
 	end
 end
